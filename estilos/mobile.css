@@ -1,3 +1,27 @@
 body {
-    background-color: aquamarine;
+    background: linear-gradient(var(--azul2), var(--azul1));
+}
+
+#conteiner {
+    max-width: 95vw;
+}
+
+#previsao #titulo {
+    font-size: 1.7em;
+    font-weight: 400;
+}
+
+#temperatura{
+    font-weight: 900;
+    font-size: 2em;
+    line-height: 60px;
+}
+
+#descricaotempo {
+    font-weight: 700;
+}
+
+#demaisinformacoes .info h2 {
+    font-size: 0.85em;
+    font-weight: 600;
 }

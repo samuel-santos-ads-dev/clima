@@ -165,14 +165,41 @@ body {
     color: var(--ventocor);
 }
 
+#alerta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#alerta p {
+    margin-top: 5px;
+    color: var(--titulo1);
+    font-family: Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#alerta img {
+    width: 250px;
+    height: 200px;
+    margin-top: 25px;
+}
 
 .rodape {
+    justify-self: center;
     position: fixed;
     bottom: 8px;
 }
 
-.rodape p{
+.rodape a {
     color: var(--titulo1);
     font-style: italic;
     opacity: 0.6;
+    text-decoration: none;
+    transition: 200ms ease;
+}
+
+.rodape a:hover {
+    opacity: 1;
 }
