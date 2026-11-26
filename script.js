@@ -25,7 +25,7 @@ document.getElementById("pesquisar").addEventListener("submit", async (event) =>
             tempmin: json.main.temp_min,
             descricao: json.weather[0].description,
             iconedin: json.weather[0].icon,
-            ventovelocidade: json.wind.speed,
+            ventovelocidade: (json.wind.speed * 3.6),
             umidade: json.main.humidity
         })
     }
